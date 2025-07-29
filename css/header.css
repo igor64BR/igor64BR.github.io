@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(to right, var(--primary-color), var(--primary-light-color));
+}
+
+nav a {
+    text-decoration: none;
+    color: #3c8191;
+    padding: 13px 13px;
+
+    letter-spacing: 3px;
+
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: lightgray;
+    background-color: #3c8191;
+}
+
+.fixed-logo {
+    position: absolute;
+    left: 50px;
+    top: 2px;
+}
+
+.top-page-model {
+    display: block;
+    width: 100%;
+}

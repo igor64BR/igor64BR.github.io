@@ -1,0 +1,17 @@
+footer {
+    background-color: var(--primary-dark-color);
+    color: color-mix(in srgb, var(--secondary-color) 80%, white);
+    
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    letter-spacing: 3px;
+}
+
+footer span {
+    margin: 0;
+}
